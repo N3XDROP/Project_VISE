@@ -1,0 +1,35 @@
+{
+  "name": "proyect_vise",
+  "version": "1.0.0",
+  "description": "Proyecto VISE con express y TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N3XDROP/Project_VISE.git"
+  },
+  "author": "Julian F. Peralta B.",
+  "contributors": [
+    {
+      "name": "Jose L. Torres R."
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N3XDROP/Project_VISE/issues"
+  },
+  "homepage": "https://github.com/N3XDROP/Project_VISE#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
