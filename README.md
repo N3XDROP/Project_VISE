@@ -1,0 +1,1 @@
+# Informacion respecto al repositorio y su funcionamiento.
