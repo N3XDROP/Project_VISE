@@ -1,12 +1,7 @@
-import express from "express";
+import app from "./app";
 
-const app = express();
-const PORT = 3000;
-
-app.get("/", (req, res) => {
-  res.send("¡Hola desde Express con TypeScript!");
-});
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+  console.log(`🚀 VISE API running on http://localhost:${PORT}`);
 });
